@@ -1,2 +1,2 @@
 web:uwsgi uwsgi.ini
-heroku ps:scale web=1
+web:gunicorn uwsgi:uwsgi.ini
