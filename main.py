@@ -10,7 +10,7 @@ api=Api(app)
 app.secret_key="Mangesh@1997"
 jwt=JWT(app,authenticate,identity)
 app.config['MONGO_DBNAME'] = 'Nimbadevi'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/Nimbadevi'
+app.config['MONGO_URI'] = 'mongodb+srv://Mangesh:MrPw5april@mangesh.29rlr.mongodb.net/Nimbadevi?retryWrites=true&w=majority'
 
 mongo = PyMongo(app)
 
