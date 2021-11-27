@@ -1,2 +1,2 @@
 
-web:gunicorn uwsgi:uwsgi.ini
+web:gunicorn uwsgi.ini
