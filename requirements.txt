@@ -4,3 +4,4 @@ Flask-JWT
 Flask-PyMongo
 uwsgi
 PyMongo
+gunicorn
